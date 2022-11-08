@@ -1,0 +1,23 @@
+.forum{position: relative;
+    top:-150px;z-index:40;
+    color:black
+}
+.grid3 img{filter:opacity(49%)}
+.grid3 img:hover{filter:opacity(40%)}
+.grid3{height: 250px;
+ width: 1265px; }
+
+
+ @media screen and (max-width:1025px) {
+    .grid3{height: 170px !important;
+        width: 1020px;
+    }
+    .grid3 h4{left: 0px !important;}
+       
+ }
+
+ @media screen and (max-width:768px) {
+
+    .grid3{display: none !important;} 
+
+ }

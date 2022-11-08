@@ -1,0 +1,20 @@
+.play{color: rgb(80, 77, 77);padding-left: 0px !important;
+    margin-left: -70px !important;
+    font-size: 290px !important;
+    transform: rotate(135deg) !important;
+   height: 180px !important;
+}
+.footbut{ position: fixed !important;left: -50px !important;
+    padding-left: 0px !important;
+    margin-left: -10px !important;
+ bottom: -80px !important;
+   
+}
+.star{position: fixed !important;left: 2px !important;
+    font-size: 35px !important;color: white !important;bottom: 6px !important;
+}
+.text1{position: fixed !important;left: 15px !important;bottom: 11px !important;
+    font-size: 11px !important;color:black}
+.footbut:hover{background-color:transparent !important;
+text-decoration: none !important;
+}

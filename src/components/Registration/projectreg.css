@@ -1,0 +1,117 @@
+.regimg{width: 70px;filter:opacity(100%) !important;
+    position: relative;top:-450px;left:300px;
+}
+.grid768 img {
+    filter: opacity(99%) !important;}
+.regimg:hover{  filter: brightness(120%);}
+.img-text-wrapper{position: relative;top:50px;left:300px;}
+.img-text-wrapper2{position: relative;top:-340px;left:-300px;}
+.regimg2{width: 70px;filter:opacity(100%) !important;
+    position: relative;top:-840px;left:900px;
+}
+.grid1{height: 305px;width: 1265px !important;}
+.grid1 img{filter:opacity(49%) ;height: 300px !important;}
+.grid1 img:hover{filter:opacity(100%)}
+.grid1 h4{color: black;}
+.grid768{display: none !important;}
+/*-----------------------------1440--------------------------*/
+@media screen and (max-width:1440px) {
+    body,html{overflow-x: hidden !important;
+        margin:0px !important;
+        padding: 0px !important;} 
+   /* .regimg{width: 70px;filter:opacity(100%);
+        position: relative;top:-450px;left:300px;
+    }
+    
+    .regimg:hover{  filter: brightness(120%);}
+    .img-text-wrapper{position: relative;top:50px;left:300px;}
+    .img-text-wrapper2{position: relative;top:-340px;left:-300px;}
+    .regimg2{width: 70px;filter:opacity(100%) !important;
+        position: relative;top:-840px;left:900px;
+    }
+    .grid1{height: 305px;width: 1440px !important;}
+    .grid1 img{filter:opacity(49%);height: 300px !important;}
+    .grid1 img:hover{filter:opacity(100%)}
+    .grid1 h4{color: black;}
+    .grid768{display: none !important;}*/
+ }
+ .grid768{display: none !important;}
+ 
+/*-----------------------------1024--------------------------*/
+@media screen and (max-width:1024px) {
+   .grid1{
+    height: 505px !important;width: 1020px !important;
+    } 
+    .grid1 img{height: 500px !important;}
+    .regimg{width: 70px;filter:opacity(100%);
+        position: relative;left:200px;position: relative;top:-695px !important;
+    }
+    .img-text-wrapper{position: relative;left:630px;}
+    .img-text-wrapper2{position: relative;left:70px;top: -545px;}
+    .regimg2{width: 70px;
+        position: relative;left:750px;top: -1290px;
+    }
+}
+
+
+
+/*-----------------------------768--------------------------*/
+@media screen and (max-width:768px) {
+
+     .grid1{display: none !important;}
+     .grid768 img{filter:opacity(49%);height: 300px !important;}
+     .regimg{width: 70px;filter:opacity(100%) !important;
+         position: relative;top:-750px !important;left:360px;
+     }
+     .img-text-wrapper{position: relative;top:240px;left:10px;}
+     .img-text-wrapper2{position: relative;top:-450px;left:0px;}
+     .regimg2{width: 70px;
+         position: relative;top:-850px;left:360px;
+     }
+     .grid768{display: contents !important;}
+  
+     .grid768 h4{color: black;}
+     .reg{height: 600px !important;}
+ }
+
+/*-----------------------------425--------------------------*/
+@media screen and (max-width:426px) {
+
+    .grid1{display: none !important;}
+    .grid768 img{filter:opacity(49%);height: 180px !important;}
+    .regimg{width: 40px;filter:opacity(100%) !important;
+        position: relative;top:-500px !important;left:200px;
+    }
+    .img-text-wrapper{position: relative;top:90px;left:10px;}
+    .img-text-wrapper2{position: relative;top:-350px;left:0px;}
+    .regimg2{width: 40px;
+        position: relative;top:-580px;left:200px;
+    }
+    .grid768{display: contents !important;}
+    .reg{height: 350px !important;}
+}
+/*-----------------------------375--------------------------*/
+@media screen and (max-width:376px) {
+
+    .grid1{display: none !important;}
+    .grid768 img{height: 160px !important;}
+    .regimg{width: 40px;position: relative;top:-480px !important;left:180px;}
+    .img-text-wrapper{position: relative;top:10px;left:10px;}
+    .img-text-wrapper2{position: relative;top:-400px;left:0px;}
+    .regimg2{width: 40px;position: relative;top:-560px;left:180px;}
+    .grid768{display: contents !important;}
+    .reg{height: 310px !important;}
+    
+}
+/*-----------------------------320--------------------------*/
+@media screen and (max-width:321px) {
+    .grid1{display: none !important;}
+    .grid768 img{height: 130px !important;}
+    .grid768{display: contents !important;height: 20px !important;background-color: brown !important;}
+    .regimg{position: relative;top:-425px !important;left:140px;width: 30px;}
+    .img-text-wrapper{position: relative;top:20px !important;left:0px;}
+    .img-text-wrapper2{position: relative;top:-355px;left:50px;width: 200px !important;}
+    .regimg2{position: relative;top:-530px;left:140px;width: 30px;}
+    .reg{height: 250px !important;}
+    
+}

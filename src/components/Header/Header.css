@@ -1,0 +1,64 @@
+.msi{margin-left: 0px;}
+.person{margin-left:75%;position:relative;top:-20px;color:gray}
+.search{margin-left:85%;position:relative;top:-42px;color:gray}
+#icon {  color: gray !important;}
+.css-10hburv-MuiTypography-root {font-size: 18px !important;}
+.msilogo{height: 20px !important;width: 100px !important;position:relative;top: -70px !important;left: 40%;}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    height: 80px !important;
+    padding-left: 40px !important;
+}
+#product{font-weight: 700 !important;font-size: 16px !important;color: #7b7979 !important;}
+.msi1{
+    display:  block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.closeicon{
+   margin-left: 20px;
+   margin-top: 20px;
+}
+
+.css-4t3x6l-MuiPaper-root-MuiDrawer-paper {
+    width:1050px !important;}
+
+@media screen and (max-width:1024px) {
+      .person{margin-left:89%;}
+      .search{margin-left:93%;}
+}
+
+@media screen and (max-width:768px){
+      .css-4t3x6l-MuiPaper-root-MuiDrawer-paper {width: 800px !important;}
+      .msilogo{position:relative;left: 40%;}
+      .search{margin-left:91% !important;}
+      .person{transform: translateX(-20px) !important;}
+    }
+@media screen and (max-width:426px){
+  .css-4t3x6l-MuiPaper-root-MuiDrawer-paper {width: 430px !important;}
+  .msilogo{position:relative;left: 33%;}
+  .person{transform: translateX(-30px) !important;}
+  .search{margin-left:90% !important;}
+}
+
+@media screen and (max-width:376px){
+  .css-4t3x6l-MuiPaper-root-MuiDrawer-paper {width: 380px !important;}
+  .msilogo{position:relative;left: 33%;}
+  .person{transform: translateX(-30px) !important;}
+  .search{margin-left:90% !important;}
+}
+@media screen and (max-width:321px){
+.css-4t3x6l-MuiPaper-root-MuiDrawer-paper {
+    width: 320px !important;
+    font-size: 18px !important;}
+    .msilogo{position:relative;left: 35% !important;}
+    .person{transform: translateX(-30px) !important;}
+    .search{margin-left:90% !important;}
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root:hover{
+  text-decoration: underline;
+  text-decoration-thickness: 3px !important;
+    text-underline-offset: 31px !important;
+    color: black !important;
+}
+

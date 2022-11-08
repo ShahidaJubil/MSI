@@ -1,0 +1,158 @@
+tr{text-align: left;}
+.css-10hburv-MuiTypography-root{line-height: 3 !important;}
+.css-10hburv-MuiTypography-root {font-weight: 700 !important;}
+.footer{margin-left: 15px;}
+td:hover{text-decoration: underline;
+    cursor: pointer;
+}
+th{color: rgb(112, 108, 108) !important;
+    font-size: 16px !important;
+}
+.footer hr{position: relative;top: -35px;}
+td{padding: 5px !important;}
+th{text-align: left;padding-left: 5px !important;}
+.uk-table-expand1{width: 300px !important;}
+.uk-table-expand2{width: 290px !important;}
+.uk-table-expand3{width: 200px !important;}
+.uk-table-expand4{width: 220px !important;}
+.footer2{display: none;}
+
+
+.uk-navbar li{list-style: none;
+    margin:8px !important;
+}
+.copy{width: 600px !important;text-align: left;margin-left: -10px !important;}
+.uk-navbar{margin-left: 4px !important;}
+.hr1{width: 97% !important;position: relative; left: 20px !important;top: 30px !important;}
+.navitems p{ position:relative;top: 10px !important;left: 40px;color: rgb(103, 101, 101) !important;}
+.global{position:relative;bottom: 0px !important;}
+.uk-navbar-itemimg img{position: relative;top: 25px;left: 12px;}
+
+/*--------------------------1024---------------------------*/
+@media screen and (max-width:1024px) {
+
+    .footer{
+        position: relative;height: 400px;
+    }
+    .footer hr{position: relative;top: 12px;}
+    .footer1{display: none;}
+    .footer2{display:contents;}
+    .addicon{position: relative;left: 160px; color: black; }
+    td{padding: 18px !important;}
+    .uk-table-divider{width: 975px;}
+
+}
+
+
+/*---------------------------------768--------------------*/
+@media screen and (max-width:768px) {
+
+    .footer{
+        position: relative;height: 0px !important;
+    }
+    .footer hr{position: relative;top: 18px;padding-left: 0px !important;width: 100% !important;left: 0px;}
+    .footer1{display: none;}
+    .footer2{display:contents;}
+    .addicon{position: relative;left: 120px; color: black; }
+    td{padding: 18px !important;}
+    .uk-table-divider{width: 698px;}
+    .uk-navbar-itemimg img{display: none;}
+
+}
+
+/*---------------------------------425--------------------*/
+@media screen and (max-width:426px) {
+
+    .footer{
+    height: 400px;
+    }
+    .footer hr{position: relative;top: 18px;padding-left: 0px !important;width: 100% !important;left: 0px;}
+    .footer1{display: none;}
+    .footer2{display:contents;}
+    .addicon{position: relative;left: 30px; color: black;width: 22px !important; }
+    td{padding: 18px !important;}
+    .uk-table-divider{width: 380px;}
+    .uk-navbar-itemimg img{display: none;}
+
+}
+/*---------------------------------375--------------------*/
+@media screen and (max-width:376px) {
+
+    .footer{height: 400px;}
+    .footer hr{position: relative;top: 18px;padding-left: 0px !important;width: 100% !important;left: 0px;}
+    .footer1{display: none;}
+    .footer2{display:contents;}
+    .addicon{position: relative;left: 30px; color: black;width: 22px !important; }
+    td{padding: 18px !important;}
+    .uk-table-divider{width: 330px;}
+    
+
+}
+/*---------------------------------320--------------------*/
+@media screen and (max-width:321px) {
+    .uk-table-divider{width: 300px !important;}
+    .addicon{width: 38px !important;position: relative;left: 20px !important;}
+    .footer{height: 0px !important;}
+}
+
+
+
+
+
+@media screen and (max-width:1024px) {
+   
+    .copy{transform:translate(250px,-10px);font-size: 17px !important;}
+    .hr1{position: relative;top: -18px !important;}
+    .uk-navbar-itemimg img{position: absolute;left: 210px;}
+    .navitems {transform:translate(-120px,-50px);font-size: 17px !important;}
+    #policy{width: 110px !important;}
+    #use{width: 100px !important;}
+    #eng{width: 140px !important;}
+}
+
+/*------------------------------------768----------------------------------*/
+@media screen and (max-width:768px) {
+    .copy{transform:translate(-20px,20px);font-size: 14px !important;}
+    .hr1{position: relative;top: -22px !important;}
+    .uk-navbar-itemimg img{position: absolute;left: 210px;}
+    .navitems {transform:translate(-645px,-25px);font-size: 17px !important;}
+    #policy{width: 110px !important;}
+    #use{width: 100px !important;}
+    #eng{width: 140px !important;transform:translate(-1140px,-70px)}
+    .uk-navbar{height: 130px !important;}
+}
+
+/*------------------------------------425----------------------------------*/
+@media screen and (max-width:426px) {
+    .copy{transform:translate(-30px,30px);font-size: 14px !important;}
+    .hr1{position: relative;top: -22px !important;}
+    .uk-navbar-itemimg img{position: absolute;left: 210px;}
+    .navitems {transform:translate(-645px,-40px);font-size: 17px !important;}
+    #policy{width: 110px !important;}
+    #use{width: 100px !important;transform:translate(-900px,-5px)}
+    #eng{width: 140px !important;transform:translate(-1140px,-80px)}
+    .uk-navbar{height: 140px !important;}
+}
+/*------------------------------------375----------------------------------*/
+@media screen and (max-width:376px) {
+    .copy{width: 350px !important; transform:translate(-18px,50px);font-size: 14px !important;}
+    .hr1{position: relative;top: -22px !important;}
+    .uk-navbar-itemimg img{position: absolute;left: 210px;}
+    .navitems {transform:translate(-645px,-40px);font-size: 17px !important;}
+    #policy{width: 110px !important;transform:translate(-393px,-45px)}
+    #use{width: 100px !important;transform:translate(-650px,0px)}
+    #eng{width: 140px !important;transform:translate(-883px,-90px)}
+    .uk-navbar{height: 180px !important;}
+}
+/*------------------------------------320----------------------------------*/
+@media screen and (max-width:321px) {
+    .copy{width: 280px !important; transform:translate(-18px,50px);font-size: 14px !important;}
+    .hr1{position: relative;top: -22px !important;}
+    .uk-navbar-itemimg img{position: absolute;left: 210px;}
+    .navitems {transform:translate(-645px,-40px);font-size: 17px !important;}
+    #policy{width: 110px !important;transform:translate(-324px,-45px)}
+    #use{width: 100px !important;transform:translate(-580px,0px)}
+    #eng{width: 140px !important;transform:translate(-816px,-90px)}
+    .uk-navbar{height: 180px !important;}
+}
+

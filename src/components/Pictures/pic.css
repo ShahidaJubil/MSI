@@ -1,0 +1,35 @@
+.pic :hover{  filter: brightness(120%);}
+.pic2{display:none !important;}
+
+@media screen and (max-width:1440px) {
+
+       .pic2{display: none !important;}
+       .pic1{display:flex !important; }
+}
+
+@media screen and (max-width:1024px) {
+
+       .pic1{display: none !important;}
+       .pic2{display:flex !important;
+       filter: brightness(70% ) !important;
+       }
+}
+
+@media screen and (max-width:768px) {
+
+       .pic1{display: none !important;}
+       .pic2{display:flex !important;}
+}
+
+@media screen and (max-width:426px) {
+
+       .pic1{display: none !important;}
+       .pic2{display:flex !important;}
+}
+
+@media screen and (max-width:376px) {
+
+       .pic1{display: none !important;}
+       .pic2{display:flex !important;}
+    
+}
